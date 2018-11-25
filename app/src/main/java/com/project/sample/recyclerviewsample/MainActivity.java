@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
     private void setupView() {
         dataSample = new ArrayList<>();
         dataSample.add("Label 1");
-        dataSample.add("Label 2");
+        dataSample.add("Label2");
         dataSample.add("Label 3");
-        dataSample.add("Label 4");
+        dataSample.add("Label4");
         dataSample.add("Label 5");
-        dataSample.add("Label 6");
+        dataSample.add("Label6");
         dataSample.add("Label 7");
         adapterSample = new SampleAdapter(dataSample);
         rcvSample = findViewById(R.id.rcv_sample);
